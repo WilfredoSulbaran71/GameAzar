@@ -1,7 +1,7 @@
 // para la primera imagen:
 var randomNumber1 = Math.floor(Math.random() * 3)+1; // 1-3
 
-var randomImageSource = "imagen/image" + randomNumber1 + ".png"; // imagen/image1.png - imagen/image6.png
+var randomImageSource = "Imagen/image" + randomNumber1 + ".png"; // imagen/image1.png - imagen/image6.png
 
 var image1 = document.querySelectorAll("img")[0].setAttribute("src", randomImageSource);
 
@@ -21,7 +21,7 @@ figure1.setAttribute("src", randomSource);*/
 
 var randomNumber2 = Math.floor(Math.random() * 3)+1;
 
-var randomImageSource2 = "imagen/image" + randomNumber2 + ".png";
+var randomImageSource2 = "Imagen/image" + randomNumber2 + ".png";
 
 document.querySelectorAll("img")[1].setAttribute("src", randomImageSource2);
 
